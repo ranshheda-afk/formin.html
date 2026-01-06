@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms in html</title>
+</head>
+<body>
+    <h1></h1>
+    <form>
+        <label>name</label><br>
+        <input type="text" id="name"><br>
+        <label>email</label><br>
+        <input type="text" id="email"><br>
+        <label>contact</label><br>
+        <input type="password" id="contact"><br>
+        <label>age</label><br>
+        <input type="text" id="age"><br>
+        <label> date of birth</label><br>
+        <input type="date" name="DOB"><br>
+    </form>
+    <fieldset>
+        <legend><b>enter your marks of 10 std</b></legend><br>
+        <form oninput="x.value=(Number(m1.value)+ Number(m2.value)+Number(m3.value))/3">
+            <label>name</label><br>
+            <input type="text" name="" id="name"><br>
+            <select name="" id="subject1">
+                <option value="">maths</option>
+                 <option value="">english</option>
+                  <option value="">science</option>
+            </select>
+            <input type="number" id="m1"><br>
+             <select name="" id="subject2">
+                <option value="">maths</option>
+                 <option value="">english</option>
+                  <option value="">science</option>
+            </select>
+            <input type="number" id="m2"><br>
+             <select name="" id="subject3">
+                <option value="">maths</option>
+                 <option value="">english</option>
+                  <option value="">science</option>
+            </select>
+            <input type="number" id="m3"><br>
+            average= <output name="x"></output>3
+        </form>
+        </fieldset>
+
+
+</body>
+</html>
